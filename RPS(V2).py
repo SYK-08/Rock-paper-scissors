@@ -24,3 +24,30 @@ if decision=='y':
         print('You WON')
     elif action=='Scissors' and decision2==2:
         print('You LOST')
+    
+    while decision=='y':
+    play_ag = input('Do you want to play again?(y/n):')
+    if play_ag=='n':
+        print('Okay then, see ya.')
+        break
+    elif play_ag=='y':
+        print('Great!\n**************\nPress 1 to select Rock.\nPress 2 to select Paper.\nPress 3 to select Scissors.\n**************')
+    decision2 = int(input('Choose an option(1/2/3):'))
+    if action=='Rock' and decision2==1:
+        print('Draw')
+    elif action=='Paper' and decision2==2:
+        print('Draw')
+    elif action=='Scissors' and decision2==3:
+        print('Draw')
+    elif action=='Rock' and decision2==2:
+        print('You WON')
+    elif action=='Rock' and decision2==3:
+        print('You LOST, better luck next time.')
+    elif action=='Paper' and decision2==1:
+        print('You LOST, better luck next time.')
+    elif action=='Paper' and decision2==3:
+        print('You WON')
+    elif action=='Scissors' and decision2==1:
+        print('You WON')
+    elif action=='Scissors' and decision2==2:
+        print('You LOST, better luck next time.')
