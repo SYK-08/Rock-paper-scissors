@@ -13,15 +13,15 @@ if decision=='y':
     elif action=='Scissors' and decision2==3:
         print('Draw')
     elif action=='Rock' and decision2==2:
-        print('You WON')
+        print('You WON!')
     elif action=='Rock' and decision2==3:
         print('You LOST')
     elif action=='Paper' and decision2==1:
         print('You LOST')
     elif action=='Paper' and decision2==3:
-        print('You WON')
+        print('You WON!')
     elif action=='Scissors' and decision2==1:
-        print('You WON')
+        print('You WON!')
     elif action=='Scissors' and decision2==2:
         print('You LOST')
     
@@ -40,14 +40,14 @@ if decision=='y':
     elif action=='Scissors' and decision2==3:
         print('Draw')
     elif action=='Rock' and decision2==2:
-        print('You WON')
+        print('You WON!')
     elif action=='Rock' and decision2==3:
         print('You LOST, better luck next time.')
     elif action=='Paper' and decision2==1:
         print('You LOST, better luck next time.')
     elif action=='Paper' and decision2==3:
-        print('You WON')
+        print('You WON!')
     elif action=='Scissors' and decision2==1:
-        print('You WON')
+        print('You WON!')
     elif action=='Scissors' and decision2==2:
         print('You LOST, better luck next time.')
